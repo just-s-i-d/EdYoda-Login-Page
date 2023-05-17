@@ -1,0 +1,44 @@
+.offer-container {
+    position: relative;
+    border: 2px solid #d0d0d0;
+    padding: 5px;
+    font-size: 14px;
+    display: flex;
+    border-radius: 5px;
+    gap: 10px;
+    margin: 10px 5px;
+
+    &.expired {
+        opacity: 0.5;
+        .tag{
+            background-color: red;
+            padding:0 20px;
+        }
+    }
+
+    &.recommended {
+        border-color: #47ba68;
+        .tag{
+            padding:0 20px;
+            background-color: #47ba68;
+        }
+    }
+
+    .label-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+.left-container{
+    font-weight: 500;
+}
+        .right-container {
+            .total{
+                font-size: 15px;
+                font-weight: 500;
+            }
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.final-price-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:5px 25px ;
+    .left-container{
+        font-size: 12px;
+        .total{
+            font-weight: 600;
+        }
+    }
+    .right-container{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}

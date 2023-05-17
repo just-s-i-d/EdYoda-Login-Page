@@ -1,0 +1,31 @@
+.discount-price-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    font-size: 13px;
+    border: 2px solid #e14d1a;
+    border-radius: 5px;
+    background-color: #fae1d5;
+
+    .left-container {
+        font-weight: 500;
+        color: #e14d1a;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        .left-bottom {
+            margin-top: 5px;
+            font-weight: 400;
+            display: flex;
+            gap: 10px;
+        }
+
+        img {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}

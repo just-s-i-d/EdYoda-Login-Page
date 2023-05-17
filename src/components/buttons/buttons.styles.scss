@@ -1,0 +1,21 @@
+.btns-container{
+    margin-top: 20px;
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    button{
+        font-weight: 600;
+        width:45%;
+        padding:10px 10px;
+        border-radius: 3px;
+    }
+    .cancel{
+        color:#e14d1a;
+        border:2px solid #e14d1a;
+    }
+    .pay{
+        background-color: #47ba68;
+        border:none;
+        color:white;
+    }
+}

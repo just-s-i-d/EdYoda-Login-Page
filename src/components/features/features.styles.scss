@@ -1,0 +1,25 @@
+.features-container {
+    box-sizing: border-box;
+    position: absolute;
+    left: 10%;
+    margin:10px 30px;
+    color: white;
+    width: 700px;
+    height:600px;
+
+    h1 {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 125%;
+        font-family: "Raleway";
+        .price-cut {
+            font-family: "Roboto";
+            text-decoration: line-through red 7px;
+        }  
+    }
+    .imp-item {
+        font-family: "Roboto";
+        color: #0096FF;
+    }
+
+}
